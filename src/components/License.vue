@@ -40,7 +40,7 @@ SOFTWARE.
 
     </div>
       <div class="sections">
-      <a class="primary" href="https://github.com/ljcucc/realtime-taiwan">Source code</a>
+      <a class="primary" href="#/">Go back</a>
       </div>
   </div>
 </template>

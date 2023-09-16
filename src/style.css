@@ -62,9 +62,9 @@ h1{
 
 .img{
   width: 80vw;
-  height: 50vw;
+  height: 70vmax;
   border-radius: 20vmin;
-  background: url(./assets/screenshot.webp) center / cover;
+  background: url(./assets/screenshot.webp) top / cover;
   /* box-shadow: 0px 4px 18px rgba(0,0,0,.15); */
 
   transition: box-shadow 0.35s;
@@ -85,6 +85,7 @@ img:hover{
 .sections>*{
   background-color: #fafdfb;
   margin-inline-end: 16px;
+  margin-block-end: 16px;
 }
 
 a{

@@ -15,6 +15,11 @@
           Contains map data from <a href="https://developers.google.com/maps/documentation/tile">Goole maps</a>
         </p>
       </div>
+
+
+      <div class="sections">
+      <a class="primary" href="#/">Go back</a>
+      </div>
     </div>
   </div>
 </template>
