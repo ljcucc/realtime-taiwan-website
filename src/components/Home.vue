@@ -4,7 +4,7 @@
 <template>
   <div class="main">
     <div class="title">
-      <h1>See Taiwan<br>Realtime</h1>
+      <h1 class="app-title">See Taiwan<br>Realtime</h1>
       <div style="text-align: center;">Realtime public CCTV app for Taiwan, powered by taiwanese open data. Totally ads free.</div>
       <div class="sections" style="margin-top:0;">
       <a class="primary" href="#">App Store</a>
