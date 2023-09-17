@@ -5,7 +5,7 @@
     <div class="main">
     <div class="title">
 
-      <h1>Data Attribution</h1>
+      <h1>{{ $t('message.data_attr') }}</h1>
 
       <div style="text-align: center">
         <p>
@@ -18,7 +18,7 @@
 
 
       <div class="sections">
-      <a class="primary" href="#/">Go back</a>
+      <a class="primary" href="#/">{{ $t('message.go_back') }}</a>
       </div>
     </div>
   </div>

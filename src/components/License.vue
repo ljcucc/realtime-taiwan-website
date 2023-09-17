@@ -5,7 +5,7 @@
     <div class="main">
     <div class="title" style="text-align: center;display: flex; flex-direction: column; align-items: center;">
 
-      <h1>Open Source<br>License</h1>
+      <h1>{{ $t("message.os_license_title") }}</h1>
       <div>This app is under MIT License</div>
 
       <div style="text-align: justify;">
@@ -40,7 +40,7 @@ SOFTWARE.
 
     </div>
       <div class="sections">
-      <a class="primary" href="#/">Go back</a>
+      <a class="primary" href="#/">{{  $t('message.go_back') }}</a>
       </div>
   </div>
 </template>

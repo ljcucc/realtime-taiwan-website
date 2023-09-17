@@ -4,8 +4,8 @@
 <template>
   <div class="main">
     <div class="title">
-      <h1 class="app-title">See Taiwan<br>Realtime</h1>
-      <div style="text-align: center;">Realtime public CCTV app for Taiwan, powered by taiwanese open data. Totally ads free.</div>
+      <h1 class="app-title">{{$t('message.app_title')}}</h1>
+      <div style="text-align: center;">{{ $t('message.app_description') }}</div>
       <div class="sections" style="margin-top:0;">
       <a class="primary" href="#">App Store</a>
       <a class="primary" href="https://play.google.com/store/apps/dev?id=5179871640243387446">Google Play</a>
@@ -17,9 +17,9 @@
       <!-- <span>map data by openstreetmap</span> -->
     </div>
     <div class="sections">
-      <a href="https://github.com/ljcucc/realtime-taiwan">Source code</a>
-      <a href="#/data">Data Attribution</a>
-      <a href="#/license">License</a>
+      <a href="https://github.com/ljcucc/realtime-taiwan">{{ $t('message.source_code') }}</a>
+      <a href="#/data">{{ $t('message.data_attr') }}</a>
+      <a href="#/license">{{ $t('message.license') }}</a>
     </div>
   </div> 
 </template>
