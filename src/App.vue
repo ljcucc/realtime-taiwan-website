@@ -3,11 +3,13 @@ import { ref, computed } from 'vue';
 import HomePage from './components/Home.vue';
 import DataPage from './components/Data.vue';
 import LicensePage from './components/License.vue';
+import PrivacyPage from './components/Privacy.vue';
 
 const routes = {
   '/': HomePage,
   '/license': LicensePage,
   '/data': DataPage,
+  '/privacy': PrivacyPage,
 }
 
 const currentPath = ref(window.location.hash);
