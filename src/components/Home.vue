@@ -7,8 +7,8 @@
       <h1 class="app-title">{{$t('message.app_title')}}</h1>
       <div style="text-align: center;">{{ $t('message.app_description') }}</div>
       <div class="sections" style="margin-top:0;">
-      <a class="primary" href="#">App Store</a>
-      <a class="primary" href="https://play.google.com/store/apps/dev?id=5179871640243387446">Google Play</a>
+      <a class="primary" href="#">{{$t('message.app_store')}}</a>
+      <a class="primary" href="https://play.google.com/store/apps/details?id=app.ljcucc.realtime_taiwan">{{$t('message.google_play')}}</a>
       </div>
     </div>
     <div class="screenshot">
