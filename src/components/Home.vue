@@ -20,6 +20,7 @@
       <a href="https://github.com/ljcucc/realtime-taiwan">{{ $t('message.source_code') }}</a>
       <a href="#/data">{{ $t('message.data_attr') }}</a>
       <a href="#/license">{{ $t('message.license') }}</a>
+      <a href="#/privacy">{{ $t('message.privacy') }}</a>
     </div>
   </div> 
 </template>

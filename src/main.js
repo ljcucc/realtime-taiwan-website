@@ -17,6 +17,7 @@ const messages = {
       go_back: "Go back",
       google_play: "Google Play",
       app_store: "App Store",
+      privacy: "Privacy Policy"
     }
   },
   zh: {
@@ -29,6 +30,7 @@ const messages = {
       license: "軟體宣告",
       os_license_title: "開源\n軟體宣告",
       go_back: "返回",
+      privacy: "隱私權條款"
     }
   },
   ja: {
@@ -42,6 +44,7 @@ const messages = {
       os_license_title: "ライセンス",
       go_back: "戻る",
       google_play: "Play ストア",
+      privacy: "プライバシーポリシー",
     }
   }
 };
