@@ -1,25 +1,33 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
     <div class="main">
-    <div class="title">
+        <div class="title">
+            <h1>{{ $t("message.data_attr") }}</h1>
 
-      <h1>{{ $t('message.data_attr') }}</h1>
+            <div style="text-align: center">
+                <p>
+                    Contains map data © OpenStreetMap contributors,
+                    <a href="https://www.openstreetmap.org/copyright"
+                        >www.openstreetmap.org/copyright</a
+                    >
+                </p>
+                <p>
+                    Contains map data from
+                    <a
+                        href="https://developers.google.com/maps/documentation/tile"
+                        >Goole maps</a
+                    >
+                </p>
+                Dataset:
+                <a href="https://data.gov.tw/dataset/59458">
+                    https://data.gov.tw/dataset/59458
+                </a>
+            </div>
 
-      <div style="text-align: center">
-        <p>
-          Contains map data © OpenStreetMap contributors, <a href="https://www.openstreetmap.org/copyright">www.openstreetmap.org/copyright</a> 
-        </p>
-        <p>
-          Contains map data from <a href="https://developers.google.com/maps/documentation/tile">Goole maps</a>
-        </p>
-      </div>
-
-
-      <div class="sections">
-      <a class="primary" href="#/">{{ $t('message.go_back') }}</a>
-      </div>
+            <div class="sections">
+                <a class="primary" href="#/">{{ $t("message.go_back") }}</a>
+            </div>
+        </div>
     </div>
-  </div>
 </template>
